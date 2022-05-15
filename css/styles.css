@@ -1,12 +1,60 @@
-.header {  
-    background-color: yellow; 
-    color: blue;
+:root {
+  --main-color: #3f51b5;
 }
 
-.text1  {
-    color: blueviolet;
+.header {
+  background-color: yellow;
+  color: blue;
+}
+
+.text1 {
+  color: blueviolet;
 }
 
 .text2 {
-    color: rgb(0, 59, 37);
+  color: rgb(0, 59, 37);
+}
+
+.textq {
+  color: green;
+}
+
+.button-cat {
+  cursor: pointer;
+}
+
+.button-cat:hover,
+.button-cat2:hover {
+  color: red;
+}
+
+li > .button-cat2 {
+  color: aqua;
+}
+
+.button-cat:focus,
+.button-cat2:focus {
+  color: rgb(255, 166, 0);
+}
+
+.button-cat:active,
+.button-cat2:active {
+  color: rgb(18, 0, 175);
+}
+
+.button-cat:visited,
+.button-cat2:visited {
+  color: rgb(0, 126, 21);
+}
+
+.riba {
+  color: brown;
+}
+
+.banana > .riba {
+  color: blue;
+}
+
+.banana > p:hover {
+  color: var(--main-color);
 }

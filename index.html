@@ -26,7 +26,7 @@
     </div>
 
     <div class="container">
-      <div class="box">
+      <!-- <div class="box">
         <div class="object one">
           <span class="text"
             >Ви <br />
@@ -36,8 +36,92 @@
         <div class="object two">TWO</div>
         <div class="object three">THREE</div>
         <div class="object four">FOUR</div>
-        <div class="object five"> FIVE</div>
-      </div>
+        <div class="object five">FIVE</div>
+      </div> -->
+    </div>
+
+    <div class="container">
+      <form class="box-form" autocomplete="on">
+        <p><b> Піцца-стан - краща піца евер</b></p>
+
+        <label class="label">
+          Name
+          <input
+            class="input"
+            type="text"
+            required
+            minlength="3"
+            maxlength="20"
+            name="Nickname"
+            placeholder="Nick Nicklson"
+          />
+        </label>
+        <label class="label">
+          Phone number
+          <input
+            class="input"
+            type="tel"
+            required
+            minlength="13"
+            maxlength="17"
+            name="Phone"
+            placeholder="+38 096 256 25 25"
+          />
+        </label>
+        <label class="label">
+          Mail
+          <input class="input" type="email" name="Phone-number" placeholder="YourEmail@mail.com" required />
+        </label>
+
+        <div class="additions">
+          <p>Additions</p>
+          <input
+            class="input input-add"
+            type="checkbox"
+            name="add-to-pizza"
+            id="cheese"
+            value="cheese"
+          />
+          <label class="label" for="cheese">cheese</label>
+          <input
+            class="input input-add"
+            type="checkbox"
+            name="add-to-pizza"
+            id="peperoni"
+            value="peperoni"
+          />
+          <label class="label" for="peperoni"
+            >peperoni</label
+          >
+          <input
+            class="input input-add"
+            type="checkbox"
+            name="add-to-pizza"
+            id="souse"
+            value="souse"
+          />
+          <label class="label" for="souse">souse</label>
+          <input
+            class="input input-add"
+            type="checkbox"
+            name="add-to-pizza"
+            id="olivas"
+            value="olivas"
+          />
+          <label class="label" for="olivas">olivas</label>
+        </div>
+
+        <label class="label">
+          Delivery type
+          <input class="input" type="tel" />
+        </label>
+        <button type="submit" class="modal-btn">
+          Send
+        </button>
+        <button type="reset" class="modal-btn">
+          Reset
+        </button>
+      </form>
     </div>
 
     <div class="shadow is-hidden">

@@ -30,6 +30,7 @@
 .box {
   display: flex;
   padding: 20px;
+  margin-bottom: 20px;
   justify-content: center;
   position: relative;
 
@@ -147,6 +148,46 @@
 .box:hover .five {
   transform: rotateY(0deg);
 }
+
+/* Намагаємось потестити форми */
+
+.box-form {
+  /* height: 600px; */
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+
+  outline: 1px dashed blue;
+}
+
+
+.label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.input {
+  border-radius: 5px;
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.input-add {
+  width: auto;
+}
+
+.modal-btn {
+  width: 55px;
+  background-color: #3f51b569;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.modal-btn:active{
+  background-color: #3f51b5af;
+}
+
 
 /* / модальне вікно/ */
 
